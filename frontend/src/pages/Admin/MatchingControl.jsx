@@ -9,7 +9,7 @@ export default function MatchingControl() {
     try {
       setStatus("Running matching...");
 
-      const res = await fetch("http://localhost:5000/api/matching/run", {
+      const res = await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/matching/run", {
         method: "POST"
       });
 

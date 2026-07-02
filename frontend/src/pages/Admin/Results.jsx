@@ -8,7 +8,7 @@ export default function Results() {
   useEffect(() => {
     const fetchMatches = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/matching/all");
+        const res = await axios.get("https://homigo-roommate-matching-system-1.onrender.com/api/matching/all");
 
         setMatches(res.data.matches || []);
         setUnmatched(res.data.unmatched || []);

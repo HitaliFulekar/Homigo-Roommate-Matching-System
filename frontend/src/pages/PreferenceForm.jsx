@@ -18,7 +18,7 @@ export default function PreferenceForm() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/system?ts=" + Date.now())
+    fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system?ts=" + Date.now())
       .then(res => res.json())
       .then(data => setSystem(data));
   }, []);
@@ -59,7 +59,7 @@ export default function PreferenceForm() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/preferences", {
+      const res = await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/preferences", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

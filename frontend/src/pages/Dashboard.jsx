@@ -13,11 +13,11 @@ export default function Dashboard() {
   const regNo = localStorage.getItem("regNo");
 
   const fetchData = () => {
-    fetch("http://localhost:5000/api/system?ts=" + Date.now())
+    fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system?ts=" + Date.now())
       .then(res => res.json())
       .then(data => setSystem(data));
 
-    fetch("http://localhost:5000/api/announcements?ts=" + Date.now())
+    fetch("https://homigo-roommate-matching-system-1.onrender.com/api/announcements?ts=" + Date.now())
       .then(res => res.json())
       .then(data => setAnnouncements(data));
   };
@@ -31,7 +31,7 @@ export default function Dashboard() {
   useEffect(() => {
   const regNo = localStorage.getItem("regNo");
 
-  fetch(`http://localhost:5000/api/auth/student/${regNo}`)
+  fetch(`https://homigo-roommate-matching-system-1.onrender.com/api/auth/student/${regNo}`)
     .then(res => res.json())
     .then(data => setStudent(data))
     .catch(err => console.error(err));

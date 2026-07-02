@@ -11,7 +11,7 @@ export default function SystemControl() {
 
   // 🔥 LOAD FROM BACKEND
   useEffect(() => {
-    fetch("http://localhost:5000/api/system")
+    fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system")
       .then(res => res.json())
       .then(data => setSettings(data));
   }, []);
@@ -19,7 +19,7 @@ export default function SystemControl() {
   // 🔥 SAVE TO BACKEND
   const saveSettings = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/system", {
+      const res = await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

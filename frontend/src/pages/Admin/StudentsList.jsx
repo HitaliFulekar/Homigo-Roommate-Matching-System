@@ -4,7 +4,7 @@ export default function StudentsList() {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/preferences/submitted")
+    fetch("https://homigo-roommate-matching-system-1.onrender.com/api/preferences/submitted")
       .then(res => res.json())
       .then(data => setStudents(data))
       .catch(err => console.error(err));

@@ -15,19 +15,19 @@ export default function AdminDashboard() {
   // ================= FETCH =================
 
   const fetchStudents = async () => {
-    const res = await fetch("http://localhost:5000/api/preferences/submitted");
+    const res = await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/preferences/submitted");
     const data = await res.json();
     setStudents(data);
   };
 
   const fetchDeadline = async () => {
-    const res = await fetch("http://localhost:5000/api/system");
+    const res = await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system");
     const data = await res.json();
     setCurrentDeadline(data.deadline || "Not set");
   };
 
   const fetchAnnouncements = async () => {
-    const res = await fetch("http://localhost:5000/api/announcements");
+    const res = await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/announcements");
     const data = await res.json();
     setAnnouncements(data);
   };
@@ -45,7 +45,7 @@ export default function AdminDashboard() {
   // ================= ACTIONS =================
 
   const saveDeadline = async () => {
-    await fetch("http://localhost:5000/api/system", {
+    await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ deadline })
@@ -59,7 +59,7 @@ export default function AdminDashboard() {
 
     // EDIT
     if (editId) {
-      await fetch(`http://localhost:5000/api/announcements/${editId}`, {
+      await fetch(`https://homigo-roommate-matching-system-1.onrender.com/api/announcements/${editId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: announcement })
@@ -68,7 +68,7 @@ export default function AdminDashboard() {
       setEditId(null);
     } else {
       // ADD
-      await fetch("http://localhost:5000/api/announcements", {
+      await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/announcements", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: announcement })
@@ -80,7 +80,7 @@ export default function AdminDashboard() {
   };
 
   const deleteAnnouncement = async (id) => {
-    await fetch(`http://localhost:5000/api/announcements/${id}`, {
+    await fetch(`https://homigo-roommate-matching-system-1.onrender.com/api/announcements/${id}`, {
       method: "DELETE"
     });
 
@@ -93,7 +93,7 @@ export default function AdminDashboard() {
   };
 
   const runMatching = async () => {
-    await fetch("http://localhost:5000/api/matching/run", {
+    await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/matching/run", {
       method: "POST"
     });
 
@@ -105,7 +105,7 @@ export default function AdminDashboard() {
   };
 
   const publishResults = async () => {
-    await fetch("http://localhost:5000/api/system", {
+    await fetch("https://homigo-roommate-matching-system-1.onrender.com/api/system", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ published: true })

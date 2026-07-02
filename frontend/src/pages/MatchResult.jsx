@@ -6,7 +6,7 @@ export default function Match() {
   const regNo = localStorage.getItem("regNo");
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/matching/${regNo}`)
+    fetch(`https://homigo-roommate-matching-system-1.onrender.com/api/matching/${regNo}`)
       .then(res => res.json())
       .then(data => setMatch(data));
   }, []);

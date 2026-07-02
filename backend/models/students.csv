@@ -1,0 +1,101 @@
+regNo,name,branch,year,password,homeState
+23103001,Arjun,CSE,1,Ar@120506,Delhi
+23103002,Riya,IT,1,Ri@230705,Maharashtra
+23103003,Karan,ECE,1,Ka@150806,Uttar Pradesh
+23103004,Sneha,EE,1,Sn@011205,Karnataka
+23103005,Rohit,ME,1,Ro@200406,Rajasthan
+23103006,Anjali,CSE,1,An@310706,Gujarat
+23103007,Vikram,IT,1,Vi@140305,Punjab
+23103008,Pooja,ECE,1,Po@050906,Haryana
+23103009,Neha,EE,1,Ne@170806,Bihar
+23103010,Aman,ME,1,Am@280505,Madhya Pradesh
+23103011,Varun,CSE,1,Va@090706,Kerala
+23103012,Kavya,IT,1,Ka@250406,Tamil Nadu
+23103013,Manish,ECE,1,Ma@120305,Odisha
+23103014,Divya,EE,1,Di@300806,West Bengal
+23103015,Rahul,ME,1,Ra@180706,Telangana
+23103016,Sachin,CSE,1,Sa@210506,Delhi
+23103017,Meena,IT,1,Me@220705,Maharashtra
+23103018,Deepak,ECE,1,De@130806,Uttar Pradesh
+23103019,Aarti,EE,1,Aa@020505,Karnataka
+23103020,Nikhil,ME,1,Ni@190406,Rajasthan
+23103021,Simran,CSE,1,Si@300706,Gujarat
+23103022,Akash,IT,1,Ak@170305,Punjab
+23103023,Tanya,ECE,1,Ta@080906,Haryana
+23103024,Mohit,EE,1,Mo@140806,Bihar
+23103025,Payal,ME,1,Pa@260505,Madhya Pradesh
+23103026,Ritesh,CSE,1,Ri@070706,Kerala
+23103027,Komal,IT,1,Ko@240406,Tamil Nadu
+23103028,Harsh,ECE,1,Ha@110305,Odisha
+23103029,Sonal,EE,1,So@290806,West Bengal
+23103030,Abhishek,ME,1,Ab@160706,Telangana
+23103031,Yash,CSE,1,Ya@050506,Delhi
+23103032,Preeti,IT,1,Pr@120705,Maharashtra
+23103033,Shivam,ECE,1,Sh@090806,Uttar Pradesh
+23103034,Nisha,EE,1,Ni@010505,Karnataka
+23103035,Ajay,ME,1,Aj@200406,Rajasthan
+23103036,Kirti,CSE,1,Ki@310706,Gujarat
+23103037,Sagar,IT,1,Sa@140305,Punjab
+23103038,Rekha,ECE,1,Re@050906,Haryana
+23103039,Alok,EE,1,Al@170806,Bihar
+23103040,Pankaj,ME,1,Pa@280505,Madhya Pradesh
+23103041,Chirag,CSE,1,Ch@090706,Kerala
+23103042,Neelam,IT,1,Ne@250406,Tamil Nadu
+23103043,Gaurav,ECE,1,Ga@120305,Odisha
+23103044,Suman,EE,1,Su@300806,West Bengal
+23103045,Prakash,ME,1,Pr@180706,Telangana
+23103046,Ashish,CSE,1,As@210506,Delhi
+23103047,Monika,IT,1,Mo@220705,Maharashtra
+23103048,Sunil,ECE,1,Su@130806,Uttar Pradesh
+23103049,Geeta,EE,1,Ge@020505,Karnataka
+23103050,Kapil,ME,1,Ka@190406,Rajasthan
+23103051,Raj,CSE,1,Ra@300706,Gujarat
+23103052,Shruti,IT,1,Sh@170305,Punjab
+23103053,Ankit,ECE,1,An@080906,Haryana
+23103054,Seema,EE,1,Se@140806,Bihar
+23103055,Tarun,ME,1,Ta@260505,Madhya Pradesh
+23103056,Deepika,CSE,1,De@070706,Kerala
+23103057,Ramesh,IT,1,Ra@240406,Tamil Nadu
+23103058,Lokesh,ECE,1,Lo@110305,Odisha
+23103059,Kusum,EE,1,Ku@290806,West Bengal
+23103060,Anurag,ME,1,An@160706,Telangana
+23103061,Sandeep,CSE,1,Sa@050506,Delhi
+23103062,Jyoti,IT,1,Jy@120705,Maharashtra
+23103063,Ravi,ECE,1,Ra@090806,Uttar Pradesh
+23103064,Pallavi,EE,1,Pa@010505,Karnataka
+23103065,Ajit,ME,1,Aj@200406,Rajasthan
+23103066,Mehul,CSE,1,Me@310706,Gujarat
+23103067,Simar,IT,1,Si@140305,Punjab
+23103068,Shreya,ECE,1,Sh@050906,Haryana
+23103069,Vivek,EE,1,Vi@170806,Bihar
+23103070,Sonia,ME,1,So@280505,Madhya Pradesh
+23103071,Naveen,CSE,1,Na@090706,Kerala
+23103072,Kriti,IT,1,Kr@250406,Tamil Nadu
+23103073,Omkar,ECE,1,Om@120305,Odisha
+23103074,Radha,EE,1,Ra@300806,West Bengal
+23103075,Sachin,ME,1,Sa@180706,Telangana
+23103076,Ayush,CSE,1,Ay@210506,Delhi
+23103077,Ruchi,IT,1,Ru@220705,Maharashtra
+23103078,Dinesh,ECE,1,Di@130806,Uttar Pradesh
+23103079,Kiran,EE,1,Ki@020505,Karnataka
+23103080,Manoj,ME,1,Ma@190406,Rajasthan
+23103081,Rajat,CSE,1,Ra@300706,Gujarat
+23103082,Twinkle,IT,1,Tw@170305,Punjab
+23103083,Sahil,ECE,1,Sa@080906,Haryana
+23103084,Reena,EE,1,Re@140806,Bihar
+23103085,Suraj,ME,1,Su@260505,Madhya Pradesh
+23103086,Anshu,CSE,1,An@070706,Kerala
+23103087,Varsha,IT,1,Va@240406,Tamil Nadu
+23103088,Kamal,ECE,1,Ka@110305,Odisha
+23103089,Shalini,EE,1,Sh@290806,West Bengal
+23103090,Harish,ME,1,Ha@160706,Telangana
+23103091,Rakesh,CSE,1,Ra@050506,Delhi
+23103092,Suman,IT,1,Su@120705,Maharashtra
+23103093,Gopal,ECE,1,Go@090806,Uttar Pradesh
+23103094,Asha,EE,1,As@010505,Karnataka
+23103095,Tejas,ME,1,Te@200406,Rajasthan
+23103096,Rupali,CSE,1,Ru@310706,Gujarat
+23103097,Dev,IT,1,De@140305,Punjab
+23103098,Megha,ECE,1,Me@050906,Haryana
+23103099,Arti,EE,1,Ar@170806,Bihar
+23103100,Anand,ME,1,An@280505,Madhya Pradesh

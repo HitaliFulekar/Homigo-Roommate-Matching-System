@@ -58,8 +58,8 @@ https://github.com/HitaliFulekar/Homigo-Roommate-Matching-System
 ---
 
 ## Screenshots
-![Student Dashboard](image-1.png)
-![Admin Dashboard](image.png)
+![Student Dashboard](image-3.png)
+![Admin Dashboard](image-2.png)
 ---
 
 ## Project Structure

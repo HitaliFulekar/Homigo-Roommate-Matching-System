@@ -150,12 +150,12 @@ export default function Login() {
 
                 <p>
                   Registration No:
-                  <span className="font-bold"> 23103056</span>
+                  <span className="font-bold"> 23103001</span>
                 </p>
 
                 <p>
                   Password:
-                  <span className="font-bold"> password</span>
+                  <span className="font-bold"> Ar@120506</span>
                 </p>
 
                 <p className="text-xs text-gray-500 mt-1">
